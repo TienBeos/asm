@@ -1,0 +1,58 @@
+.loginPage{
+    background-image: url("https://ap.poly.edu.vn/images/backgroundLogin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loginPage-content {
+    width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    min-height: 480px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.loginPage-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.loginPage-img {
+    width: 200px;
+}
+
+.loginPage-branch {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#branch {
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    color: dimgray;
+}
+
+.loginPage-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.loginPage-btn {
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #dc4c64;
+    color: white;
+}

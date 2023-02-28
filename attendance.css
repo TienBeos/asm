@@ -1,0 +1,12 @@
+.option-select {
+    float: right;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagina {
+    float: right;
+}

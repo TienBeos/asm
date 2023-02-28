@@ -1,0 +1,140 @@
+.main-container {
+    display: flex;
+}
+
+.menu {
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    width: 250px;
+    height: 900px;
+    box-shadow: 0 0px 28px rgb(0 0 0 / 25%);
+}
+
+.name-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-items {
+    margin-top: 30px;
+}
+
+.menu-item {
+    list-style-type: none;
+}
+
+.menu-item--text {
+    padding: 15px;
+}
+
+.name-menu:hover {
+    background-color: ivory;
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.menu-logo {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.menu-logo--img {
+    width: 150px;
+}
+
+.content {
+    margin-left: 270px;
+    width: 100%;
+}
+
+.content-header--text {
+    text-align: right;
+    margin-right: 50px;
+}
+
+.content-detail {
+    display: flex;
+}
+
+.content-one {
+    width: 290px;
+    padding-right: 15px;
+    border-right: 1px solid gray;
+}
+
+.content-two {
+    width: 290px;
+    padding-right: 15px;
+    margin-left: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.content-three {
+    width: 290px;
+    padding-right: 15px;
+    margin-left: 10px;
+    border-right: 1px solid lightgray;
+}
+
+.content-four {
+    width: 290px;
+    margin-left: 10px;
+    padding-right: 15px;
+}
+
+.content-hr{
+    border-top: 1px dotted lightgray;
+}
+
+.content-one-header, .content-two-header,
+.content-three-header, .content-four-header {
+    color: #505ae2;
+    font-weight: 700;
+}
+
+.content-two-detail, .content-three-detail {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.text-red {
+    color: red;
+    font-weight: bold;
+}
+
+.hr-footer {
+    margin-top: 250px;
+    border-top: 1px dotted lightgray;
+}
+
+.content-footer {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+}
+
+.content-footer-left {
+    border-right: 1px solid lightgray;
+}
+
+.content-footer--img {
+    width: 200px;
+}
+
+.content-footer-right {
+    margin-left: 15px;
+}
+
+.content-footer--adr {
+    padding-right: 30px;
+}
+
+.iframe-content {
+    border: none;
+}
